@@ -58,6 +58,34 @@ CONFIGURATIONS:
 
 ---
 
+## 支持规则
+
+### 组织名称列表
+
+`公司/单位/组织名称`
+- baidu
+- bd
+- Baidu
+- Bd
+- BD
+
+### 用户名称列表
+
+`人员名称`
+- zhangsanfeng (拼音)
+- zsf (缩写)
+- zhangsf (首字拼音+缩写)
+- zsfeng (缩写+尾字拼音)
+- sanfengzhang (拼音+首字拼音)
+- sanfengz (拼音+首字缩写)
+- sfz (缩写+首字缩写)
+- 张三丰 (中文)
+- ZSF (缩写大写)
+- Zsf (大写缩写+小写缩写)
+- sanfeng.zhang (拼音+`.`+首字拼音)
+
+---
+
 ## 参考项目
 
 - https://github.com/mozillazg/python-pinyin
