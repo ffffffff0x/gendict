@@ -1,6 +1,6 @@
-project_name: ones
+project_name: gendict
 builds:
-  - binary: ones
+  - binary: gendict
     goos:
       - linux
       - windows
