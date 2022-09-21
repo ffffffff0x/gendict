@@ -12,7 +12,7 @@
 
 **1. 下载**
 
-
+- 从 [releases](https://github.com/ffffffff0x/gendict/releases) 进行下载
 
 **2. 支持选项**
 
@@ -49,6 +49,12 @@ CONFIGURATIONS:
 # 提供一个已知用户名列表,使用自定义后缀列表
 ./gendict -list username.txt -suffix passuffix.txt
 ```
+
+![](./img/1.png)
+
+![](./img/2.png)
+
+![](./img/3.png)
 
 ---
 
