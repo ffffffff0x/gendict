@@ -5,7 +5,6 @@ import "flag"
 var (
 	Version = "v1.0.0"
 	V       bool
-	Debug   bool
 	Org     string
 	Name    string
 	List    string
@@ -18,7 +17,6 @@ var (
 func init() {
 
 	flag.BoolVar(&V, "version", false, "显示版本号")
-	flag.BoolVar(&Debug, "debug", false, "调试")
 	flag.StringVar(&Org, "org", "", "组织名称列表")
 	flag.StringVar(&Name, "name", "", "用户名称列表")
 	flag.StringVar(&List, "list", "", "批量拼接后缀")
