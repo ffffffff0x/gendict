@@ -4,3 +4,5 @@ push.sh
 output*.txt
 /test
 /output
+*.txt
+main
